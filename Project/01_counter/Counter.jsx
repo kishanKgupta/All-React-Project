@@ -23,7 +23,7 @@ function Counter() {
   }
 
   return (
-    <div className="flex items-center justify-center h-lvh">
+    <div className="flex items-center justify-center">
       <div className=" border-black border p-10">
         <h1>Counter App</h1>
         <h1>{count}</h1>
