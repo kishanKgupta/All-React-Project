@@ -98,7 +98,7 @@ const Table = () => {
             <tr key={list.No}>
               <td style={{ width: "10%" }}>{list.No}</td>
               <td style={{ width: "30%" }}>{list.Project_Name}</td>
-              <td style={{ width: "40%" }}>{list.disc}</td>
+              <td style={{ width: "40%" }}>{list.Desc}</td>
               <td style={{ width: "20%" }}>
                 <Link to={list.Link}>Open</Link>
               </td>
