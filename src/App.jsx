@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Counter from "../Project/01_counter/Counter.jsx";
+import Counter from "../Project/Counter.jsx"
 import Header from "./Header.jsx";
 import Table from "./Table.jsx";
 import Page from "./Page.jsx";
