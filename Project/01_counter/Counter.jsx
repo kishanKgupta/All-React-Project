@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import "./Counter.css";
 
-function App() {
+function Counter() {
   const [count, setCount] = useState(0);
 
   function math1(value) {
@@ -33,3 +33,5 @@ function App() {
     </div>
   );
 }
+
+export default Counter;
