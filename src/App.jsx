@@ -3,6 +3,7 @@ import Counter from "../Project/01_counter/Counter.jsx";
 import Header from "./Header.jsx";
 import Table from "./Table.jsx";
 import Page from "./Page.jsx";
+import Footer from "./Footer.jsx"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="*" element={<Page />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

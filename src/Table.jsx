@@ -82,7 +82,7 @@ const Table = () => {
 
   return (
     <div className="table-box">
-      <h1>List Of React Project</h1>
+      <h1>List of React Project</h1>
       <table className="table">
         <thead>
           <tr>
