@@ -1,9 +1,8 @@
 import React from 'react';
-import "./Footer.css"
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='h-20 flex justify-center items-center bg-teal-700 flex-col'>
           <p>&copy; {new Date().getFullYear()} My Website. All rights reserved.</p>
           <p>Kishan Kumar Gupta</p>
     </div>
